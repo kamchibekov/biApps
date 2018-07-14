@@ -1,0 +1,572 @@
+  /*-------------------------------------------------
+=  Навигация по Css
+
+1.Стили меню
+2.General
+3.Main Settings
+4.Main Navigation
+5.Main content
+6.Blog Page
+7.Navigation
+8.Page
+9.Post
+10.Project
+11.Product
+12.Contact Form
+13.Footer
+14.Elements
+15.Loader
+16.Magnific popup
+17.OWL
+18.Animations
+
+-------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Helvetica!important;
+}
+
+#bishkekfire-about p{
+font-size: 1.2rem;
+}
+
+h1.bishkekfeire-header {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.bishkekfire-service{
+     padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+#bishkekfire-services{
+background: #eeeeee;
+}
+
+section {
+   margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
+
+h3.margin-bottom-extrasmall{
+font-size:1.5rem;
+}
+
+footer h5{
+      font-size: 1.2rem;
+    font-weight: 600;
+}
+
+ol, ul{
+list-style:none;
+}
+/*-------------------------------------------------*/
+/* =  1.Стили меню
+/*-------------------------------------------------*/
+header img{
+width:100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand{
+    width:40%;
+  }
+      header img{
+    width:50%;
+    }
+   .new_f{
+   text-align:center;
+   margin-bottom:60px;
+   }
+    
+}
+
+
+
+
+/* 2. Карусель
+-------------------------------------------------- */
+.carousel {
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 7rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #eeeeee;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+#myCarousel {
+   font-family: Helvetica;
+}
+
+#myCarousel h1 {
+    margin-bottom: .5rem;
+    font-family: Helvetica;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 2.5rem;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+i.service.material {
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    color: #527a99;
+    display: inline-block;
+        margin-bottom: 2rem;
+}   
+
+/* 3. Pricing
+-------------------------------------------------- */
+
+
+#pricing {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#pricing .price {
+  background-color: white;
+  text-align: center;
+  padding: 36px;
+  border-radius: 2px;
+  margin-top: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition: all .4s ease;
+}
+
+#pricing .price:hover {
+  margin-top: -5px;
+  transition: all .4s ease;
+}
+
+#pricing .price .price-title {
+  font-size: 22px;
+  line-height: 32px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+#pricing .price .price-number {
+  font-size: 48px;
+  line-height: 50px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#pricing .price .price-rate {
+  font-size: 14px;
+  line-height: 20px;
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+}
+
+#pricing .price ul {
+  margin-bottom: 18px;
+}
+
+#pricing .price ul li {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #757575;
+}
+
+#pricing .price ul li b {
+  font-weight: 500;
+}
+
+#pricing .price a.btn-alt {
+  margin: 30px 0 0 0;
+  background-color: white;
+  border: 1px solid #527a99;
+  color: #527a99;
+}
+
+#pricing .price a.btn-alt:hover {
+  background-color: #527a99;
+  color: white;
+}
+
+#pricing .price.active {
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#pricing .price.active .price-title, #pricing .price.active .price-number {
+  color: #527a99;
+}
+
+#pricing .price.active a.btn-alt.small {
+  background-color: #527a99;
+  border-color: #527a99;
+  color: white;
+}
+
+#pricing .price.active a.btn-alt.small:hover {
+  background-color: white;
+  border-color: #527a99;
+  color: #527a99;
+}
+
+#pricing .col-md-4:nth-child(1).price {
+  margin-right: -15px;
+}
+
+#pricing .col-md-4:nth-child(3).price {
+  margin-left: -15px;
+}
+
+ a.btn-alt {
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+    text-decoration: none !important;
+    transition: all .4s ease;
+    background-color: #527a99;
+}
+
+ a.btn-call {
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none !important;
+    transition: all .4s ease;
+    background-color: #527a99;
+}
+
+/* 4. Футер Формы
+-------------------------------------------------- */
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+#contact-form .form-field, #search-form .form-field {
+  outline: inherit;
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.41);
+  font-weight: 300;
+}
+
+#contact-form .form-field:focus, #search-form .form-field:focus {
+  border-color: transparent;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+#contact-form .form-field.big, #search-form .form-field.big {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  padding-right: 70px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  #contact-form .form-field.big, #search-form .form-field.big {
+    font-size: 35px;
+    padding-right: 35px;
+  }
+}
+
+#contact-form label, #search-form label {
+  line-height: 20px;
+  margin-bottom: 12px;
+      font-size: 14px;
+    font-weight: bold;
+    color: #527a99;
+}
+
+#contact-form label sup, #search-form label sup {
+  color: #527a99;
+  top: -0.1em;
+}
+
+#contact-form textarea.form-field, #search-form textarea.form-field {
+  padding: 12px 9px;
+}
+
+#contact-form ::-webkit-input-placeholder, #search-form ::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+  font-size: 14px;
+}
+
+#contact-form :-moz-placeholder, #search-form :-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+  font-size: 14px;
+}
+
+#contact-form ::-moz-placeholder, #search-form ::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+  font-size: 14px;
+}
+
+#contact-form :-ms-input-placeholder, #search-form :-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #444;
+  font-size: 14px;
+}
+
+#contact-form #submit-contact, #search-form #submit-contact {
+  padding: 0;
+  text-align: left;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  letter-spacing: 1px;
+  margin: 0;
+  background-color: transparent;
+  transition: all .4s ease;
+}
+
+#contact-form #submit-contact:hover, #search-form #submit-contact:hover {
+  color: #000;
+  transition: all .4s ease;
+}
+
+#contact-form #submit-contact.btn-alt, #search-form #submit-contact.btn-alt {
+  height: 36px;
+  line-height: 36px;
+  text-transform: none;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid #527a99;
+  color: #527a99;
+  transition: all .4s ease;
+  text-transform: uppercase;
+  border-radius: 2px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  overflow: hidden;
+  outline: none;
+}
+
+#contact-form #submit-contact.btn-alt:hover, #search-form #submit-contact.btn-alt:hover {
+  background-color: #527a99;
+  color: white;
+  transition: all .4s ease;
+}
+
+#contact-form #submit-contact.btn-alt.shadow, #search-form #submit-contact.btn-alt.shadow {
+  box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#contact-form #submit-contact.btn-alt.white, #search-form #submit-contact.btn-alt.white {
+  border: 1px solid white;
+}
+
+#contact-form #submit-contact.btn-alt.white:hover, #search-form #submit-contact.btn-alt.white:hover {
+  background-color: white;
+  color: #527a99 !important;
+  transition: all .4s ease;
+}
+
+#contact-form #submit-contact.btn-alt.active, #search-form #submit-contact.btn-alt.active {
+  background-color: #527a99;
+  color: white;
+  transition: all .4s ease;
+}
+
+#contact-form #submit-contact.btn-alt.active:hover, #search-form #submit-contact.btn-alt.active:hover {
+  background-color: transparent;
+  color: #527a99 !important;
+  transition: all .4s ease;
+}
+
+
+/* 5. Логин Формы
+-------------------------------------------------- */
+
+#form_login{
+    text-align: -webkit-center;
+    margin-top: 13rem;
+}
+
+.new-login-form {
+border: 1px solid #eee;
+    padding: 44px;
+    background: #eee;
+}
+
+.new-login-inp{
+text-align:left;
+}
+
+
+
+
+
