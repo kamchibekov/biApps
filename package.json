@@ -1,0 +1,16 @@
+{
+  "name": "businessbishkek",
+  "version": "1.0.0",
+  "description": "A small local business in Bishkek",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kamchibekov@bitbucket.org/bifire/instagram.git"
+  },
+  "author": "Adilet Kamchibekov, Askar Sydykakparov",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/bifire/instagram#readme"
+}
