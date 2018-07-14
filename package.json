@@ -4,7 +4,8 @@
   "description": "A small local business in Bishkek",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": ""
   },
   "repository": {
     "type": "git",
