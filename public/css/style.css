@@ -95,7 +95,6 @@ width:100%;
 -------------------------------------------------- */
 .carousel {
   margin-bottom: 4rem;
-  margin-top: 3rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -577,9 +576,10 @@ text-align:left;
 	clear: both;
 	margin: 0 auto;
 	padding: 1em 0 4em;
-	max-width: 80%;
 	list-style: none;
-	text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Common style */
@@ -587,7 +587,7 @@ text-align:left;
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 10px;
 	min-width: 320px;
 	max-width: 31%;
 	max-height: 360px;
@@ -692,11 +692,12 @@ figure.effect-winston figcaption::before {
 	transform-origin: 0 100%;
 }
 
-figure.effect-winston h2 {
+figure.ef.gridfect-winston h2 {
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
+    font-weight: 700;
 }
 
 figure.effect-winston p {
