@@ -22,6 +22,10 @@
 
 -------------------------------------------------*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -71,7 +75,9 @@ list-style:none;
 /* =  1.Стили меню
 /*-------------------------------------------------*/
 header img{
-width:100%;
+  width: 63%;
+  object-fit: cover;
+  height: 60px;
 }
 
 @media (max-width: 768px) {
@@ -681,7 +687,7 @@ figure.effect-winston figcaption::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url("/img/triangle.svg") no-repeat center center;
+	background: url("../img/triangle.svg") no-repeat center center;
 	background-size: 100% 100%;
 	content: '';
 	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
